@@ -1,0 +1,8 @@
+prefix=/home/chenxin/transform/devel
+
+Name: bin2pcd
+Description: Description of bin2pcd
+Version: 0.0.0
+Cflags: -I/home/chenxin/transform/src/bin2pcd/include
+Libs: -L${prefix}/lib 
+Requires: pcl_ros roscpp
